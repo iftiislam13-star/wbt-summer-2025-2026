@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Donor Information</title>
+</head>
+
+<body>
+
+    <form method="post">
+
+
+        <legend><strong>
+                <h1>Donor Information</h1>
+            </strong></legend>
+        <center>
+
+            <table>
+
+                <!-- First Name -->
+                <tr>
+                    <td><label for="first_name">First Name*</label></td>
+                    <td>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </td>
+                </tr>
+
+                <!-- Last Name -->
+                <tr>
+                    <td><label for="last_name">Last Name*</label></td>
+                    <td>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </td>
+                </tr>
+
+                <!-- company -->
+                <tr>
+                    <td><label for="company">Company</label></td>
+                    <td>
+                        <input type="text" id="Company" name="Company" required>
+                    </td>
+                </tr>
+
+                <!-- Address_1 -->
+                <tr>
+                    <td><label for="address 1">Address 1*</label></td>
+                    <td>
+                        <input type="text" id="address 1" name="Address 1" required>
+                    </td>
+                </tr>
+
+                <!-- Address_2 -->
+                <tr>
+                    <td><label for="address 2">Address 1</label></td>
+                    <td>
+                        <input type="text" id="address 2" name="Address 2" required>
+                    </td>
+                </tr>
+
+                <!-- City -->
+                <tr>
+                    <td><label for="City">City*</label></td>
+                    <td>
+                        <input type="text" id="City" name="City" required>
+                    </td>
+                </tr>
+
+                <!-- State -->
+                <tr>
+                    <td><label for="state">State*</label></td>
+                    <td>
+                        <select id="state" name="state">
+                            <option>Select a state</option>
+                            <option>Dhaka</option>
+                            <option>Khulna</option>
+                            <option>Rajshahi</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- Zip Code -->
+                <tr>
+                    <td><label for="zip_code">Zip Code*</label></td>
+                    <td>
+                        <input type="text" id="zip_code" name="State*" required>
+                    </td>
+                </tr>
+
+
+                <!-- Country -->
+                <tr>
+                    <td><label for="country">Country*</label></td>
+                    <td>
+                        <select id="country" name="country">
+                            <option>Select a Country</option>
+                            <option>Bangladesh</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Phone -->
+                <tr>
+                    <td><label for="phone">phone</label></td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" required>
+                    </td>
+                </tr>
+
+                <!-- Fax -->
+                <tr>
+                    <td><label for="fax">Fax</label></td>
+                    <td>
+                        <input type="text" id="fax" name="fax" required>
+                    </td>
+                </tr>
+
+                <!-- Email -->
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+
+
+
+                <!-- Donation Amount -->
+                <tr>
+                    <td> <label>Donation Amount*</label><br>
+                        <small>(Check a button or type in your amount)</small><br>
+                    </td>
+                    <td>
+                        <input type="radio" name="Donation Amount" value="none"> None
+                        <input type="radio" name="Donation Amount" value="$50"> $50
+                        <input type="radio" name="Donation Amount" value="$75"> $75
+                        <input type="radio" name="Donation Amount" value="$100"> $100
+                        <input type="radio" name="Donation Amount" value="$250"> $250
+                        <input type="radio" name="Donation Amount" value="other"> other
+                        <br>
+                        <label>Other Amount $</label>
+                        <input type="text">
+                        </br>
+                    </td>
+
+                </tr>
+
+                <!-- Recurring Donation -->
+                <tr>
+                    <td><label><strong>Recurring Donation</strong></label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        I am interested in giving on a regular basis.
+
+                        <br>
+                        <small>(Check if yes)</small>
+
+                        <br><br>
+
+                        Monthly Credit Card $
+                        <input type="text" size="5">
+
+                        For
+                        <input type="text" size="5">
+
+                        Months
+                    </td>
+
+                    <br><br>
+
+
+
+                </tr>
+
+
+                <!-- Buttons -->
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+
+            </table>
+        </center>
+
+
+    </form>
+
+</body>
+
+</html>
